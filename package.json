@@ -4,17 +4,9 @@
   "author": "TecShield",
   "homepage": "/",
   "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start -- --port $PORT",
-    "export": "next export",
-    "lint": "next lint",
-    "lint-fix": "next lint --fix"
-  },
-  "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start --port $PORT",
+    "start": "next start -p 3000",
     "export": "next export",
     "lint": "next lint",
     "lint-fix": "next lint --fix"
