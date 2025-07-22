@@ -350,7 +350,7 @@ const Editor = () => {
                   window.UnityLoaded();
                 }
               }}
-              src={`/editor/index.html`}s
+              src={`/editor/index.html`}
               // src='https://greetings-card-website-dev.vercel.app'
               // src={`${WEB_URL}/editor/index.html?uuid=${id}`}
               // title={data.title}
