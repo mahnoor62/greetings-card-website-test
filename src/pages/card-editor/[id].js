@@ -328,18 +328,19 @@ const Editor = () => {
             {/*    height: '100%'*/}
             {/*  }}*/}
             {/*></iframe>*/}
-            {
-              showQr && (
-                <Box sx={{
-                  position: 'absolute',
-                  right: 20,
-                  top: { lg: '20%', xs: '40%', ipad: '35%' },
-                  display: { lg: 'block', xs: 'none' }
-                }}>
-                  <QRCodeGenerator value={content} size={100}/>
-                </Box>
-              )
-            }
+
+            {/*{*/}
+            {/*  showQr && (*/}
+            {/*    <Box sx={{*/}
+            {/*      position: 'absolute',*/}
+            {/*      right: 20,*/}
+            {/*      top: { lg: '20%', xs: '40%', ipad: '35%' },*/}
+            {/*      display: { lg: 'block', xs: 'none' }*/}
+            {/*    }}>*/}
+            {/*      <QRCodeGenerator value={content} size={100}/>*/}
+            {/*    </Box>*/}
+            {/*  )*/}
+            {/*}*/}
 
             <iframe
               // onLoad={gameIframe}
