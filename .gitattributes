@@ -1,0 +1,2 @@
+* text=lf
+public/editor/Build/* filter=lfs diff=lfs merge=lfs -text

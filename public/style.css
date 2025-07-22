@@ -1,0 +1,149 @@
+@font-face {
+  font-family: 'Calibri';
+  src: url('/font/calibri/calibri-regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+html
+{
+  /*ALLOW scrollinh for smoothnes component taging*/
+  scroll-behavior: smooth;
+}
+
+body {
+  /*background: transparent;*/
+  /*font-family: Helvetica Neue, Helvetica, Arial, sans-serif;*/
+  /*font-size: 14px;*/
+  /*color: #000;*/
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+
+  /*background: red;*/
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/*.swiper {*/
+/*  position: relative;*/
+/*}*/
+
+.swiper-pagination {
+  position: absolute;
+  bottom: 10px !important; /* Move it below the Swiper container */
+  width: 100%;
+  text-align: center;
+}
+
+.swiper-pagination-bullet {
+  background: grey !important; /* base color */
+}
+.swiper-pagination-bullet-active {
+  background: #c165a0 !important;
+}
+
+.popover {
+  background-color: white !important;
+  color: black !important;
+  border: 1px solid #ccc;
+}
+
+.popover-header {
+  background-color: white !important;
+  color: black !important;
+  /*font-weight: bold;*/
+}
+
+.popover-body {
+  color: black !important;
+}
+
+.dropdown-menu {
+  background-color: rgba(232, 207, 222, 0.9);
+  color: black;
+  min-width: 150px;
+  border: 0;
+  border-radius: 0;
+  /*z-index: 2000 !important;*/
+  /*position: fixed*/
+}
+
+.dropdown-item {
+  font-size: 14px;
+  /*font-weight: bolder;*/
+  cursor: pointer;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+  background-color: #c165a0 !important; /* dark pink */
+  color: white !important;
+  /*border-radius: 8px;*/
+}
+
+
+/*.menu {*/
+/*  border-radius: 12px;*/
+/*}*/
+.menu {
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: #c165a0 #fbe5f0; /* Firefox */
+
+  /* WebKit-based browsers */
+}
+
+.menu::-webkit-scrollbar {
+  /*width: 6px;*/
+}
+
+.menu::-webkit-scrollbar-track {
+  /*background: #fbe5f0;*/
+  /*border-radius: 8px;*/
+}
+
+.menu::-webkit-scrollbar-thumb {
+  /*background-color: #c165a0;*/
+  /*border-radius: 8px;*/
+}
+
+
+/*.custom-dropdown {*/
+/*  animation: fadeSlideDown 0.3s ease-in-out;*/
+/*}*/
+
+/*@keyframes fadeSlideDown {*/
+/*  from {*/
+/*    opacity: 0;*/
+/*    transform: translateY(-5px);*/
+/*  }*/
+/*  to {*/
+/*    opacity: 1;*/
+/*    transform: translateY(0);*/
+/*  }*/
+/*}*/
+
+/*.active-btn:hover,*/
+/*.active-btn:focus {*/
+/*  background-color: #c165a0;*/
+/*  color: white;*/
+/*}*/
