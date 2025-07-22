@@ -1,6 +1,6 @@
 module.exports = {
   reactStrictMode: true,
-  // output: 'export',
+  output: 'export',
   compress: true,
   images: {
     formats: ['image/avif', 'image/webp'],

@@ -142,6 +142,12 @@ const Editor = () => {
           'LoadSavedData',
           JSON.stringify(userTemplateData)
         );
+        //sending qr link here
+        instance.SendMessage(
+          'JsonDataHandlerAndParser',
+          'QrLink',
+          JSON.stringify(content)
+        );
 
         gameIframe.current.contentWindow.unityLoadSignal = async (status) => {
           console.log('msg recieveing from unity is---------------------- ', status);
