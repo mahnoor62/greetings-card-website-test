@@ -149,11 +149,11 @@ const Editor = () => {
           JSON.stringify(content)
         );
 
-        gameIframe.current.contentWindow.unityLoadSignal = async (status) => {
-          console.log('msg recieveing from unity is---------------------- ', status);
-          setShowQr(true);
-
-        };
+        // gameIframe.current.contentWindow.unityLoadSignal = async (status) => {
+        //   console.log('msg recieveing from unity is---------------------- ', status);
+        //   setShowQr(true);
+        //
+        // };
 
         gameIframe.current.contentWindow.saveImage = async (array = [], int, index) => {
           console.log('🖼️ Received array:', array);
